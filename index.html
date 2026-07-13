@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AfriConnect Summit 2027 — Le rendez-vous tech panafricain</title>
+  <meta name="description" content="AfriConnect Summit 2027 : 3 jours à Dakar réunissant développeurs, entrepreneurs et investisseurs de tout le continent africain." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header>
+    <nav class="navbar" aria-label="Navigation principale">
+      <div class="container">
+        <a href="index.html" class="nav-logo">
+          <i class="bi bi-globe-central-south-asia"></i> AfriConnect <span>Summit 2027</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="intervenants.html">Intervenants</a></li>
+          <li><a href="contact.html">Inscription</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Changer de thème">
+            <i class="bi bi-moon-stars"></i>
+          </button>
+          <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <svg class="hero-map" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="var(--color-secondary)" stroke-width="1" opacity="0.55">
+          <line x1="120" y1="130" x2="300" y2="220"></line>
+          <line x1="300" y1="220" x2="480" y2="150"></line>
+          <line x1="300" y1="220" x2="360" y2="400"></line>
+          <line x1="360" y1="400" x2="560" y2="440"></line>
+          <line x1="480" y1="150" x2="620" y2="260"></line>
+          <line x1="620" y1="260" x2="560" y2="440"></line>
+          <line x1="120" y1="130" x2="360" y2="400"></line>
+        </g>
+        <g fill="var(--color-primary)">
+          <circle cx="120" cy="130" r="5"></circle>
+          <circle cx="300" cy="220" r="5"></circle>
+          <circle cx="480" cy="150" r="5"></circle>
+          <circle cx="620" cy="260" r="6"></circle>
+          <circle cx="360" cy="400" r="6"></circle>
+          <circle cx="560" cy="440" r="5"></circle>
+        </g>
+      </svg>
+
+      <div class="container">
+        <div class="hero-content">
+          <p class="eyebrow">10 — 12 mars 2027 · Dakar, Sénégal</p>
+          <h1>Le continent se <em>connecte</em>, se construit et se code ici.</h1>
+          <p class="hero-sub">
+            <strong>AfriConnect Summit</strong> réunit pendant 3 jours les développeurs, entrepreneurs et
+            investisseurs qui façonnent la tech africaine de demain — conférences, ateliers et rencontres au
+            Centre International du Commerce Extérieur, Dakar.
+          </p>
+          <div class="hero-cta">
+            <a href="contact.html" class="btn btn-primary"><i class="bi bi-ticket-perforated"></i> S'inscrire maintenant</a>
+            <a href="programme.html" class="btn btn-outline"><i class="bi bi-calendar-event"></i> Voir le programme</a>
+          </div>
+
+          <div class="countdown" data-countdown="2027-03-10T09:00:00" aria-label="Compte à rebours avant l'événement">
+            <div class="countdown-item"><span class="num" id="cd-days">00</span><span class="label">Jours</span></div>
+            <div class="countdown-item"><span class="num" id="cd-hours">00</span><span class="label">Heures</span></div>
+            <div class="countdown-item"><span class="num" id="cd-minutes">00</span><span class="label">Minutes</span></div>
+            <div class="countdown-item"><span class="num" id="cd-seconds">00</span><span class="label">Secondes</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="badge-card">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80"
+                 alt="Public assistant à une conférence tech, salle animée avec écran de présentation" />
+            <div class="badge-tag">
+              <span><i class="bi bi-people-fill"></i> Édition 2026</span>
+              <span>Complet à 92%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CHIFFRES CLÉS ===================== -->
+    <section class="stats" aria-label="Chiffres clés de l'événement">
+      <div class="container">
+        <div class="stats-grid">
+          <article class="stat-card">
+            <p class="stat-number"><span data-count="1200" data-suffix="+">0</span></p>
+            <p class="stat-label">Participants attendus</p>
+          </article>
+          <article class="stat-card">
+            <p class="stat-number"><span data-count="48">0</span></p>
+            <p class="stat-label">Intervenants experts</p>
+          </article>
+          <article class="stat-card">
+            <p class="stat-number"><span data-count="3">0</span></p>
+            <p class="stat-label">Jours de contenu</p>
+          </article>
+          <article class="stat-card">
+            <p class="stat-number"><span data-count="12">0</span></p>
+            <p class="stat-label">Pays représentés</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POURQUOI PARTICIPER ===================== -->
+    <section class="why" aria-label="Pourquoi participer">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Pourquoi venir</p>
+          <h2>Trois jours qui accélèrent votre trajectoire</h2>
+          <p>Que vous soyez développeur, fondateur ou investisseur, AfriConnect Summit est pensé pour créer des connexions qui durent au-delà de l'événement.</p>
+        </div>
+
+        <div class="why-flex">
+          <article class="why-card">
+            <div class="why-icon"><i class="bi bi-diagram-3"></i></div>
+            <h3>Réseau panafricain</h3>
+            <p>Rencontrez des pairs et partenaires venus de 12 pays du continent, dans un cadre pensé pour le réseautage.</p>
+          </article>
+          <article class="why-card">
+            <div class="why-icon"><i class="bi bi-lightbulb"></i></div>
+            <h3>Contenu de pointe</h3>
+            <p>48 intervenants abordent l'IA, la fintech, le design produit et la data à travers des sessions concrètes.</p>
+          </article>
+          <article class="why-card">
+            <div class="why-icon"><i class="bi bi-briefcase"></i></div>
+            <h3>Opportunités concrètes</h3>
+            <p>Espace investisseurs, ateliers de recrutement et sessions de pitch pour les startups en croissance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INTERVENANTS VEDETTES ===================== -->
+    <section class="featured-speakers" aria-label="Intervenants vedettes">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Ils seront sur scène</p>
+          <h2>Intervenants vedettes</h2>
+          <p>Un aperçu des voix qui façonnent la tech africaine, parmi nos 48 intervenants confirmés.</p>
+        </div>
+
+        <div class="speakers-grid">
+          <article class="speaker-card">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&q=80" alt="Portrait d'Aïcha Ndoye, souriante, tenue professionnelle" />
+            <div class="speaker-info">
+              <h3>Aïcha Ndoye</h3>
+              <p class="role">Fondatrice, Teranga AI</p>
+              <span class="country"><i class="bi bi-geo-alt"></i> Sénégal</span>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&q=80" alt="Portrait de Kwame Mensah, costume, regard confiant" />
+            <div class="speaker-info">
+              <h3>Kwame Mensah</h3>
+              <p class="role">Directeur produit, PayNova</p>
+              <span class="country"><i class="bi bi-geo-alt"></i> Ghana</span>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500&q=80" alt="Portrait de Zanele Khumalo, vêtements colorés, sourire chaleureux" />
+            <div class="speaker-info">
+              <h3>Zanele Khumalo</h3>
+              <p class="role">Associée, Baobab Ventures</p>
+              <span class="country"><i class="bi bi-geo-alt"></i> Afrique du Sud</span>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&q=80" alt="Portrait d'Omar El Fassi, veste décontractée, posture dynamique" />
+            <div class="speaker-info">
+              <h3>Omar El Fassi</h3>
+              <p class="role">CTO, Atlas Cloud</p>
+              <span class="country"><i class="bi bi-geo-alt"></i> Maroc</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a href="intervenants.html" class="btn btn-outline">Voir tous les intervenants <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SPONSORS ===================== -->
+    <section class="sponsors" aria-label="Partenaires et sponsors">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Ils nous soutiennent</p>
+          <h2>Partenaires 2027</h2>
+        </div>
+
+        <div class="sponsors-flex">
+          <div class="sponsor-tier tier-gold">
+            <span class="tier-label">Partenaires Or</span>
+            <div class="sponsor-row">
+              <span class="sponsor-logo">Teranga Bank</span>
+              <span class="sponsor-logo">Sahel Telecom</span>
+            </div>
+          </div>
+          <div class="sponsor-tier tier-silver">
+            <span class="tier-label">Partenaires Argent</span>
+            <div class="sponsor-row">
+              <span class="sponsor-logo">Baobab Ventures</span>
+              <span class="sponsor-logo">Atlas Cloud</span>
+              <span class="sponsor-logo">PayNova</span>
+            </div>
+          </div>
+          <div class="sponsor-tier tier-bronze">
+            <span class="tier-label">Partenaires Bronze</span>
+            <div class="sponsor-row">
+              <span class="sponsor-logo">Kola Studio</span>
+              <span class="sponsor-logo">Jokko Media</span>
+              <span class="sponsor-logo">NileWorks</span>
+              <span class="sponsor-logo">Savane Data</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>AfriConnect Summit</h4>
+          <p>Le sommet tech panafricain qui connecte développeurs, entrepreneurs et investisseurs du continent.</p>
+          <div class="social-icons">
+            <a href="https://twitter.com" aria-label="Suivre AfriConnect sur X"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://linkedin.com" aria-label="Suivre AfriConnect sur LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://instagram.com" aria-label="Suivre AfriConnect sur Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="index.html">Accueil</a>
+          <a href="programme.html">Programme</a>
+          <a href="intervenants.html">Intervenants</a>
+          <a href="contact.html">Inscription</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p><i class="bi bi-envelope"></i> hello@africonnectsummit.africa</p>
+          <p><i class="bi bi-geo-alt"></i> CICES, Dakar, Sénégal</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2027</span> AfriConnect Summit. Tous droits réservés.</p>
+        <p>Projet pédagogique — L1 Développement Web</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Retour en haut de page">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
