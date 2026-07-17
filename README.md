@@ -1,7 +1,7 @@
 # AfriConnect Summit 2027 — Site vitrine
 
-**Étudiant(e) :** _À compléter (Nom Prénom)_
-**Classe :** _À compléter_
+**Étudiant(e) :** _Ndoye Gane samba_
+**Classe :** _L1 IAGE nr_
 
 ## Description du projet
 
@@ -54,7 +54,7 @@ NOM-Prenom-AfriConnectSummit/
 
 ## Lien GitHub Pages
 
-_À compléter après déploiement :_ `https://<utilisateur>.github.io/NOM-Prenom-AfriConnectSummit/`
+https://ganendoye09.github.io/Ndoye-Ganesamba-AfriConnectSummit/
 
 ## Ressources consultées
 
